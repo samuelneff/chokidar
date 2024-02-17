@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [8, 10, 12, 16, 18, 20, 21]
+        node-version: [16, 18, 20, 21]
 
     steps:
       - name: Clone repository
